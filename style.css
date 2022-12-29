@@ -58,5 +58,25 @@ h1 {
 
 /* Extra small: 0px (320px) - 575px */
 @media (max-width: 575px) {
-
+    .a {
+        color: rgb(177, 143, 107);
+        text-decoration: none;
+        margin-left: -5px;
+        padding-right: 22px;
+        font-size: 20px;
+    }
+    h1 {
+        padding-top: 55px;
+        color: rgb(46, 29, 5);
+        margin-left: 10px;
+        font-size: 27px;
+    }
+    .photo {
+        margin-top: 70px;
+        display: flex;
+        margin-left: 10px;
+        width: 170px;
+        height: 170px;
+    }
+    
 }
