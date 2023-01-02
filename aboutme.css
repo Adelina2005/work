@@ -31,12 +31,46 @@ h3 {
 
 /* Large: 992px - 1199px */
 @media (max-width: 1199px) {
-
+    .nav {
+        display: block;
+    }
+    h3 {
+        padding-top: 610px;
+        color: rgb(57, 40, 21);
+        margin-left: 10px;
+        margin-right: -1px;
+        font-size: 38px;
+    }
+    .photo {
+        margin-top: -1170px;
+        display: flex;
+        margin-right: 200px;
+        margin-left: 200px;
+        width: 600px;
+        height: 600px;
+    }
 }
 
 /* Medium: 768px - 991px */
 @media (max-width: 991px) {
-
+    .nav {
+        display: block;
+    }
+    h3 {
+        padding-top: 500px;
+        color: rgb(57, 40, 21);
+        margin-left: 10px;
+        margin-right: -1px;
+        font-size: 30px;
+    }
+    .photo {
+        margin-top: -930px;
+        display: flex;
+        margin-right: 130px;
+        margin-left: 150px;
+        width: 450px;
+        height: 450px;
+    }
 }
 
 /* Small: 576px - 767px */
@@ -55,7 +89,7 @@ h3 {
         margin-top: -730px;
         display: flex;
         margin-right: 140px;
-        margin-left: 10zz0px;
+        margin-left: 100px;
         width: 380px;
         height: 380px;
     }
