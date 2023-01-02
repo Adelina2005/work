@@ -26,7 +26,7 @@ h1 {
 
 h3 {
     color: rgb(46, 29, 5);
-    font-size: 60px;
+    font-size: 80px;
     margin: 0;
     margin-top: 250px;
     margin-bottom: -90px;
@@ -45,7 +45,7 @@ h3 {
     width: 700px;
     height: 450px;
     border-radius: 20px;
-    margin-left: 300px;
+    margin-left: 180px;
     margin-top: 100px;
     border: 10px solid rgb(46, 29, 5);
 }
@@ -69,10 +69,10 @@ h3 {
 @media (max-width: 575px) {
     h1 {
         color: rgb(177, 143, 107);
-        font-size: 150px;
-        margin-left: 40px;
+        font-size: 80px;
+        margin-left: 10px;
         margin-top: 20px;
-        margin-bottom: 0px;
+        margin-bottom: -30px;
     }
     
     .nav {
@@ -80,24 +80,25 @@ h3 {
     }
     
     .a {
-        margin-left: 50px;
+        margin-left: 15px;
+        font-size: 1px;
     }
     
     h3 {
         color: rgb(46, 29, 5);
-        font-size: 50px;
+        font-size: 30px;
         margin: 0;
         margin-top: 50px;
-        margin-left: -5px;
+        margin-left: 1px;
         margin-bottom: -100px;
     }
     
     .photo {
-        width: 550px;
-        height: 400px;
+        width: 300px;
+        height: 200px;
         border-radius: 20px;
-        margin-left: 30px;
-        margin-top: 50px;
+        margin-left: 10px;
+        margin-top: 20px;
         border: 10px solid rgb(46, 29, 5);
     }
 }
