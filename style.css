@@ -107,7 +107,7 @@ h1 {
 /* Extra small: 0px (320px) - 575px */
 @media (max-width: 575px) {
     .nav {
-        padding-top: 20px;
+        padding-top: 40px;
     }
     .a {
         margin-left: -5px;
@@ -115,12 +115,12 @@ h1 {
         font-size: 20px;
     }
     h1 {
-        padding-top: 250px;
+        padding-top: 260px;
         margin-left: 80px;
         font-size: 40px;
     }
     .photo {
-        margin-top: -140px;
+        margin-top: -160px;
         display: flex;
         margin-left: -220px;
         width: 250px;
