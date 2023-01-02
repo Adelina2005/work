@@ -41,7 +41,24 @@ h3 {
 
 /* Small: 576px - 767px */
 @media (max-width: 767px) {
-
+    .nav {
+        display: block;
+    }
+    h3 {
+        padding-top: 400px;
+        color: rgb(57, 40, 21);
+        margin-left: 10px;
+        margin-right: -1px;
+        font-size: 23px;
+    }
+    .photo {
+        margin-top: -730px;
+        display: flex;
+        margin-right: 140px;
+        margin-left: 10zz0px;
+        width: 380px;
+        height: 380px;
+    }
 }
 
 /* Extra small: 0px (320px) - 575px */
