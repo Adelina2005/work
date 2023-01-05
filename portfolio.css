@@ -62,13 +62,47 @@ h3 {
 
 /* Small: 576px - 767px */
 @media (max-width: 767px) {
+    h1 {
+        font-size: 80px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .nav {
+        display: flex;
+    }
 
+    .a {
+        margin-left: 11px;
+    }
+    
+    .one_sait {
+        font-size: 25px;
+    }
+    
+    h3 {
+        font-size: 35px;
+        margin: 0;
+        margin-top: 80px;
+        margin-bottom: -90px;
+    }
+    
+    .photo {
+        width: 300px;
+        height: 200px;
+        border-radius: 20px;
+        margin-left: 35px;
+        margin-top: 20px;
+        border: 5px solid rgb(46, 29, 5);
+        margin-bottom: 30px;
+    }
 }
+
 
 /* Extra small: 0px (320px) - 575px */
 @media (max-width: 575px) {
     h1 {
-        color: rgb(177, 143, 107);
         font-size: 80px;
         margin-left: 10px;
         margin-top: 20px;
@@ -78,19 +112,20 @@ h3 {
     .nav {
         display: block;
     }
-    
+
     .a {
-        margin-left: 15px;
-        font-size: 1px;
+        margin-left: 11px;
+    }
+    
+    .one_sait {
+        font-size: 20px;
     }
     
     h3 {
-        color: rgb(46, 29, 5);
         font-size: 30px;
         margin: 0;
         margin-top: 50px;
-        margin-left: 1px;
-        margin-bottom: -100px;
+        margin-bottom: -60px;
     }
     
     .photo {
@@ -98,8 +133,9 @@ h3 {
         height: 200px;
         border-radius: 20px;
         margin-left: 10px;
-        margin-top: 20px;
-        border: 10px solid rgb(46, 29, 5);
+        margin-top: 15px;
+        margin-bottom: -10px;
+        border: 5px solid rgb(46, 29, 5);
     }
 }
 
