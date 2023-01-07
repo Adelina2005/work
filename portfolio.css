@@ -29,7 +29,7 @@ h3 {
     font-size: 80px;
     margin: 0;
     margin-top: 250px;
-    margin-bottom: -10px;
+    margin-bottom: -150px;
 }
 
 .one_sait {
@@ -131,7 +131,7 @@ h3 {
 /* Small: 576px - 767px */
 @media (max-width: 767px) {
     h1 {
-        font-size: 80px;
+        font-size: 85px;
         margin-left: 10px;
         margin-top: 20px;
         margin-bottom: 10px;
@@ -152,7 +152,7 @@ h3 {
     h3 {
         font-size: 35px;
         margin: 0;
-        margin-top: 80px;
+        margin-top: 90px;
         margin-bottom: -90px;
     }
     
@@ -192,8 +192,8 @@ h3 {
     h3 {
         font-size: 30px;
         margin: 0;
-        margin-top: 50px;
-        margin-bottom: -60px;
+        margin-top: 60px;
+        margin-bottom: -70px;
     }
     
     .photo {
@@ -201,8 +201,8 @@ h3 {
         height: 200px;
         border-radius: 20px;
         margin-left: 10px;
-        margin-top: 15px;
-        margin-bottom: -10px;
+        margin-top: 10px;
+        margin-bottom: -20px;
         border: 5px solid rgb(46, 29, 5);
     }
 }
