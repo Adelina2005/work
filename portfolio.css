@@ -13,7 +13,7 @@ h1 {
     font-size: 150px;
     margin-left: 40px;
     margin-top: 20px;
-    margin-bottom: 0px;
+    margin-bottom: -70px;
 }
 
 .nav {
@@ -29,12 +29,12 @@ h3 {
     font-size: 80px;
     margin: 0;
     margin-top: 250px;
-    margin-bottom: -90px;
+    margin-bottom: -150px;
 }
 
 .one_sait {
     color: rgb(46, 29, 5);
-	font-size: 30px;
+	font-size: 40px;
 }
 
 .one_sait:hover{
@@ -52,12 +52,80 @@ h3 {
 
 /* Large: 992px - 1199px */
 @media (max-width: 1199px) {
+    h1 {
+        font-size: 150px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .nav {
+        display: flex;
+    }
 
+    .a {
+        margin-left: 11px;
+    }
+    
+    .one_sait {
+        font-size: 45px;
+    }
+    
+    h3 {
+        font-size: 65px;
+        margin: 0;
+        margin-top: 130px;
+        margin-bottom: -160px;
+    }
+    
+    .photo {
+        width: 520px;
+        height: 320px;
+        border-radius: 20px;
+        margin-left: 30px;
+        margin-top: 30px;
+        border: 5px solid rgb(46, 29, 5);
+        margin-bottom: 30px;
+    }
 }
 
 /* Medium: 768px - 991px */
 @media (max-width: 991px) {
+    h1 {
+        font-size: 90px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .nav {
+        display: flex;
+    }
 
+    .a {
+        margin-left: 11px;
+    }
+    
+    .one_sait {
+        font-size: 35px;
+    }
+    
+    h3 {
+        font-size: 50px;
+        margin: 0;
+        margin-top: 95px;
+        margin-bottom: -120px;
+    }
+    
+    .photo {
+        width: 400px;
+        height: 250px;
+        border-radius: 20px;
+        margin-left: 30px;
+        margin-top: 20px;
+        border: 5px solid rgb(46, 29, 5);
+        margin-bottom: 30px;
+    }
 }
 
 /* Small: 576px - 767px */
